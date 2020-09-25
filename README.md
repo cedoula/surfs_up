@@ -1,7 +1,8 @@
 # surfs_up
 
 ## Project Overview 
-Analyze the temperature trends for the months of June and December in Oahu, in order  to evaluate the year-round sustainability of a surf and ice cream shop business. We used Python, Pandas, SQLite and SQLAlchemy for this analysis.
+Analyze the temperature trends for the months of June and December in Oahu, in order  to evaluate the year-round sustainability of a surf and ice cream shop business.<br/>
+We used Python, Pandas, SQLite and SQLAlchemy for this analysis.
 
 ## Resources
 - Data Sources: [hawaii.sqlite](https://github.com/cedoula/surfs_up/blob/master/hawaii.sqlite)

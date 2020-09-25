@@ -19,3 +19,7 @@ Analyze the temperature trends for the months of June and December in Oahu, in o
 - Temperature in December are more spread out than in June since the standard deviation for December temperatures is higher.
 
 ## Summary
+The temperatures in December are slightly lower than June but suitable for a surf and ice cream shop business.<br/>
+More interesting weather data could be gatherered by analyzing the following queries:
+ - the total precipitation levels for June and December,
+ - the amount of precipitation at the most active station for June and December.

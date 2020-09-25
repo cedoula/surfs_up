@@ -22,4 +22,14 @@ Analyze the temperature trends for the months of June and December in Oahu, in o
 The temperatures in December are slightly lower than June but suitable for a surf and ice cream shop business.<br/>
 More interesting weather data could be gatherered by analyzing the following queries:
  - the total precipitation levels for June and December,
+ ```
+ session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
+
+ session.query(Measurement.date, Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
+```
  - the amount of precipitation at the most active station for June and December.
+ ```
+ session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 6).all()
+
+ session.query(Measurement.prcp).filter(Measurement.station == 'USC00519281').filter(extract('month', Measurement.date) == 12).all()
+ ```
